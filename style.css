@@ -1,0 +1,52 @@
+.container {
+	display:flex;
+}
+.btn-body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 200px;
+    background-color:#aaa;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    height: 50px;
+    width: 150px;
+    margin: 15px;
+}
+
+#box {
+ 	height:25rem;
+    width:25rem;
+    border: 1px solid black;
+    margin:75px;
+}
+
+.btn:hover {
+	scale:1.05;
+    cursor:pointer;
+ }
+
+.Monday {
+	background-color: red;
+}
+.Tuesday {
+	background-color: orange;
+}
+.Wednesday {
+	background-color: yellow;
+}
+.Thursday {
+	background-color: green;
+}
+.Friday {
+	background-color: blue;
+}
+.Saturday {
+	background-color: indigo;
+}
+.Sunday {
+	background-color: violet;
+}
