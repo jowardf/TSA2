@@ -8,18 +8,16 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="btn-body">
-            <button class="Monday btn" onclick="Mon()">Monday</button>
-            <button class="Tuesday btn" onclick="Tues()">Tuesday</button>
-            <button class="Wednesday btn" onclick="Wed()">Wednesday</button>
-            <button class="Thursday btn" onclick="Thurs()">Thursday</button>
-            <button class="Friday btn" onclick="Fri()">Friday</button>
-            <button class="Saturday btn" onclick="Sat()">Saturday</button>
-            <button class="Sunday btn" onclick="Sun()">Sunday</button>
-        </div>
-         <div id="box"></div>
-      </div>
+    <div class="buttons">
+        <button class="Monday" onclick="showBox('red')">Monday</button>
+        <button class="Tuesday" onclick="showBox('orange')">Tuesday</button>
+        <button class="Wednesday" onclick="showBox('yellow')">Wednesday</button>
+        <button class="Thursday" onclick="showBox('green')">Thursday</button>
+        <button class="Friday" onclick="showBox('blue')">Friday</button>
+        <button class="Saturday" onclick="showBox('indigo')">Saturday</button>
+        <button class="Sunday" onclick="showBox('violet')">Sunday</button>
+    </div>
+    <div class="box" id="box"></div>
 
     <script src="./script.js"></script>
 </body>
