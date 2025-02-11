@@ -55,6 +55,7 @@ button:hover {
     transform: translateX(-50%);
     opacity: 0;
     transition: background-color 0.5s ease-in-out;
+    border-radius: 3px;
 }
 .animate {
     opacity: 1;
